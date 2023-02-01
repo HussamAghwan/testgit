@@ -5,7 +5,7 @@ import java.awt.event.ActionListener;
 
 public class Contrôleur implements ActionListener {
 	
-	public int b; 
+	public int b;
 	
 	Modèle refModl;
 	
@@ -16,6 +16,7 @@ public class Contrôleur implements ActionListener {
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		refModl.incrémente();
+		System.out.println(this.b);
 	}
 
 	

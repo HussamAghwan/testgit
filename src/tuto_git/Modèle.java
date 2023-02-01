@@ -5,8 +5,6 @@ import java.util.Observable;
 public class Modèle extends Observable {
 
 	int compte;
-	int j;
-	int g;
 	
 	public Modèle() {
 		this.compte = 0;
@@ -16,6 +14,7 @@ public class Modèle extends Observable {
 		this.compte += 1;
 		this.setChanged();
 		this.notifyObservers(String.valueOf(this.compte));
+		
 	}
 	
 }

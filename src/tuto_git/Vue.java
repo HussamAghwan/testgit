@@ -7,6 +7,8 @@ import java.util.Observer;
 
 public class Vue extends Button implements Observer {
 	
+	
+	public int a;
 	public Vue() {
 		super();
 		this.setLabel("0");

@@ -5,7 +5,7 @@ import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
 
 public class Application extends Frame implements WindowListener {
-
+public int a;
 	public static void main(String[] args) {
 		new Application();
 	}
@@ -23,6 +23,7 @@ public class Application extends Frame implements WindowListener {
 		this.add(vue);
 		this.pack();
 		this.setVisible(true);
+		
 	}
 
 	@Override

@@ -6,6 +6,7 @@ public class Modèle extends Observable {
 
 	int compte;
 	int j;
+	int g;
 	
 	public Modèle() {
 		this.compte = 0;

@@ -5,6 +5,7 @@ import java.util.Observable;
 public class Modèle extends Observable {
 
 	int compte;
+	int j;
 	
 	public Modèle() {
 		this.compte = 0;
